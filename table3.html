@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas 3</title>
+</head>
+
+<style>
+    table, td {
+    border: 1px solid;
+    border-collapse: collapse;
+    }    
+
+    td {
+        height: 35px;
+        width: 35px;
+    }
+    #esquerda {
+        margin-left: 50px;
+        background-color: rgb(235, 209, 209);
+    }
+
+    #central {
+        margin-left: 250px;
+        background-color: rgb(177, 219, 255);        
+    }
+
+    #direita {
+        margin-left: 550px;
+        background-color: bisque;
+    }
+</style>
+
+<body>
+    <h4>Tabela 1</h4>
+    <table id="esquerda">
+        <tr>
+            <td colspan="3" style="background-color: rgb(28, 108, 122) ;"></td>            
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+    </table>
+
+    <h4 style="margin-left: 200px;">Tabela 2</h4>
+    <table id="central">
+        <tr>
+            <td rowspan="3" style="background-color: rgb(236, 50, 50);"></td>
+            <td></td>            
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+        </tr>
+    </table>
+
+    <h4 style="margin-left: 500px;">Tabela 3</h4>
+    <table id="direita">
+        <tr>
+            <td colspan="5" style="background-color: rgb(11, 180, 101);"></td>
+        </tr>
+        <tr>
+            <td rowspan="4" style="background-color: rgb(247, 243, 16);"></td>
+            <td></td>
+            <td></td>
+            <td></td>
+           
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td rowspan="2" style="background-color: rgb(255, 165, 210);"></td>
+            <td></td>
+           
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+
+           
+        </tr>
+        <tr>
+            <td colspan="3" style="background-color: rgb(204, 101, 60);"></td>
+            <td></td>
+        </tr>
+    </table>
+
+
+</body>
+
+</html>
